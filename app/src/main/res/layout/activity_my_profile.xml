@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        />
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:weightSum="10"
+       android:layout_height="120dp"
+       android:orientation="horizontal"
+       >
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="7"
+           android:orientation="vertical"
+           >
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="5dp"
+               android:hint="name"
+
+               android:layout_marginTop="10dp"
+                android:background="@null"
+               android:id="@+id/name_id"
+
+               android:textSize="20dp"/>
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:hint="email"
+               android:background="@null"
+               android:padding="5dp"
+               android:id="@+id/email_id"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="15dp"
+               android:hint="Phone Number"
+               android:padding="5dp"
+               android:id="@+id/phone_number_id"/>
+
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="3"
+           android:gravity="center">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/edit_img"
+                android:id="@+id/edit_profile_id"
+
+                />
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f1f1f1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "990193729664",
+    "firebase_url": "https://urbanutils-556f6.firebaseio.com",
+    "project_id": "urbanutils-556f6",
+    "storage_bucket": "urbanutils-556f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990193729664:android:e0cffd026b5aed41a4a665",
+        "android_client_info": {
+          "package_name": "com.example.urbanutils"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990193729664-526p4m9kh52qbhcr0e4mop51bkaoi772.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urbanutils",
+            "certificate_hash": "b377b4866c40fd2c2dac328b3cb87d19ada76415"
+          }
+        },
+        {
+          "client_id": "990193729664-inooqc8qpl331ep01isaa0a0jom2h8cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKDYyg-gwEwaAtrvda2lEQOjvmA2w-sjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990193729664-inooqc8qpl331ep01isaa0a0jom2h8cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

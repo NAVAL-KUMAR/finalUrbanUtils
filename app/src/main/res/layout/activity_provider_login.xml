@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_margin="20dp"
+    android:layout_marginTop="100dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ProviderLoginActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number +91"
+        android:textSize="20dp"
+        android:id="@+id/mobile_id"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select your profession"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:id="@+id/profession_id"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_radiogroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_doctor_id"
+            android:text="Doctor"
+            android:checked="true"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_electrician_id"
+            android:text="Electrician"
+            android:checked="false"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="login"
+        android:id="@+id/login_id"/>
+
+</LinearLayout>

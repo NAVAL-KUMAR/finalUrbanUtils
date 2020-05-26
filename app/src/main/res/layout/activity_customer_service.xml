@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".customerService">
+    
+
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lattitude"
+        android:visibility="gone"
+        android:id="@+id/lattitude_id"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="longitude"
+        android:visibility="gone"
+        android:id="@+id/longitude_id"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="customer"/>
+
+"
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="enter your location"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:id="@+id/customer_location"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:text="fetch location"
+        android:id="@+id/fetch_location_id"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lattitude"
+        android:visibility="gone"
+        android:id="@+id/lattitude_cus_id"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="longitude"
+
+        android:visibility="gone"
+        android:id="@+id/longitude_cus_id"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="0dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_map_id"
+
+        android:layout_gravity="center"
+        android:text="open Map"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_margin="10dp"
+        android:text="chat"
+        android:id="@+id/chat_id"/>
+
+
+
+</LinearLayout>

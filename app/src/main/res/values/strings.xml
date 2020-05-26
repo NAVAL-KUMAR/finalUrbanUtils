@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UrbanUtils</string>
+    <string name="access_token">pk.eyJ1IjoicmlzaHVzYWh1MjMiLCJhIjoiY2thMmp1dXpuMGI4eDNkb2dudTEyZW00YyJ9.Nmv2NTFYcmHbqhaci4PpPQ</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
